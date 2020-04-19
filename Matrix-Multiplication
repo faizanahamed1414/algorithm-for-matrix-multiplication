@@ -23,7 +23,7 @@ int main()
 			{
 				for (column = 0; column < cA; column++)
 					{
-					cout << "Enter Element for " << row + 1 << column + 1 << " position ";
+					cout << "Enter Element for A" << row + 1 << column + 1 << " position ";
 					cin >> element;
 					A[row][column] = element;
 					}
@@ -34,7 +34,7 @@ int main()
 		{
 			for (column = 0; column < cB; column++)
 			{
-				cout << "Enter Element for " << row + 1 << column + 1 << " position ";
+				cout << "Enter Element for B" << row + 1 << column + 1 << " position ";
 				cin >> element;
 				B[row][column] = element;
 			}
